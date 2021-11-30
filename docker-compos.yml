@@ -1,0 +1,30 @@
+version: '3.1'
+
+services:
+  s_api_gateway:
+    container_name: c_api_gateway
+    image: admin/apigateway
+    build:
+      context: .
+      docker_file: APIGateway/Dockerfile
+    ports:
+      - 80:80
+    networks:
+      - micro_net
+
+  s_api_customer:
+    container_name: c_api_customer
+    image: admin/apicustomer
+    build:
+      context: .
+      docker_file: Services/Customer/WebAPI/Dockerfile
+    ports:
+      - 9001:9001
+    networks:
+      - int_net
+
+newtworks:
+  int_net:
+    driver: overlay
+    internal: true
+  micro_net:

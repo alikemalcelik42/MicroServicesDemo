@@ -5,7 +5,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "c_api_customer",
           "Port": 9001
         }
       ],
@@ -18,7 +18,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "c_api_customer",
           "Port": 9001
         }
       ],
@@ -31,7 +31,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "c_api_customer",
           "Port": 9001
         }
       ],
@@ -44,7 +44,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "c_api_customer",
           "Port": 9001
         }
       ],
@@ -57,7 +57,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "c_api_customer",
           "Port": 9001
         }
       ],

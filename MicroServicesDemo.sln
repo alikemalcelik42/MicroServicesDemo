@@ -3,19 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{07E69EB5-17D3-4050-8DB5-8111B1E9703A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{07E69EB5-17D3-4050-8DB5-8111B1E9703A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{CF18E9D1-72F5-4D4A-ADD3-CCE728004131}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customer", "Customer", "{EE66223C-469F-4A54-8789-4A5119E3ACC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Services\Customer\Models\Models.csproj", "{20FC9B1D-463F-422D-B883-6F272C50A9F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Services\Customer\Models\Models.csproj", "{20FC9B1D-463F-422D-B883-6F272C50A9F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Services\Customer\Infrastructure\Infrastructure.csproj", "{E73552BE-D43B-4B27-8929-B96BCC4F4DEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Services\Customer\Infrastructure\Infrastructure.csproj", "{E73552BE-D43B-4B27-8929-B96BCC4F4DEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Customer\Services\Services.csproj", "{0D5FBEA8-52BF-4BAA-AB63-50F08D1BE059}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Customer\Services\Services.csproj", "{0D5FBEA8-52BF-4BAA-AB63-50F08D1BE059}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "Services\Customer\WebAPI\WebAPI.csproj", "{C500F64B-BA99-4628-AEA2-86D9C6DF04B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "Services\Customer\WebAPI\WebAPI.csproj", "{C500F64B-BA99-4628-AEA2-86D9C6DF04B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11948603-6CA9-4B7B-B6A7-F94648FB00FE}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compos.yml = docker-compos.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
